@@ -52,6 +52,9 @@ int main(void)
      * print out the result (it should end up as 32767)
      ***********************************************/
     
+    unsigned short test = -1;
+    test = test / 2;
+    cout << "Test value is: " << test << endl;
 
 
     // Now lets try to push this new code to github!
